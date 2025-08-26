@@ -1,5 +1,5 @@
 {% set name = "rapidgzip" %}
-{% set version = "0.15.1" %}
+{% set version = "0.15.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ba1ed7ce1c7894a37c06e33a46c15b5a38b490780f44095945aeb3505efeacc1
+  sha256: fa3f90f17ce185a99514df54b5316bdfa593e98f3eebbb12da301eb25d6dedcd
 
 build:
   entry_points:
