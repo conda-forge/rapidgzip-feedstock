@@ -1,5 +1,5 @@
 {% set name = "rapidgzip" %}
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8b124f29bc12de4249ab81e83e5ad35e67742a1a8ff4acb61b74c0d9fda1c14e
+  sha256: d24092495c1cccaa7d889801bc7d6f90745d247d6a09d06586f4858b10d6dddd
 
 build:
   entry_points:
